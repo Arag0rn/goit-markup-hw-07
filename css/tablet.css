@@ -10,7 +10,10 @@
     }
 
     
-  
+    header {
+        padding: 19px 16px;
+     
+    }
     .menu, .header-list{
        display: flex;
     }
@@ -133,14 +136,20 @@
     }
 
     /* ------section our team------ */
+    .our_team {
+        padding: 96px 108px 104px 108px;
+    }
+    
     .our_team_cards {
         flex-direction: row;
         justify-content: center;
         row-gap: 64px;
         column-gap: 24px;
-    
-    
-        
+      
+    }
+
+    .portfolio-image-block, img {
+        width: 264x;
     }
     .our_team_item {
         margin-top: 0;
@@ -148,6 +157,15 @@
 
     .our-team-wraper{
         margin-top: 8px;
+    }
+
+    .customers {
+        padding: 96px 108px;
+    }
+
+    .customers-bacgr {
+        width: 168px;
+        gap: 24px;
     }
     
     /* ------section footer----- */
@@ -215,7 +233,7 @@
     }
 
 
-    .portfolio-image-block, img {
+    .portfolio-image-block>img {
         width: 356px;
     }
 }

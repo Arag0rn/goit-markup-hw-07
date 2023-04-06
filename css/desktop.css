@@ -1,0 +1,284 @@
+@media screen and (min-width: 1200px) {
+    
+   /* ------section header------ */
+
+header {
+    padding: 24px 0;
+
+}
+.container {
+    width: 1158px;
+    margin: 0 auto; 
+    padding: 0 15px;
+}
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+.menu, .header-list{
+   display: flex;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.header-list {
+    margin-left: 76px;
+}
+.header-menu:not(:first-child) {
+    margin-left: 40px;
+}
+    
+.header_item {
+    list-style: none;
+    text-decoration: none;
+    color: var(--dark);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header_item:hover {
+    color: #404bbf;
+}
+
+
+.header_item:focus {
+    color: #404bbf;
+}
+
+.header-address {
+    display: flex;
+    font-style: normal;
+    margin-left: auto;
+
+}
+
+.header_info {  
+    list-style: none;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+    
+ .header_info, .header_info_item, .header_info_item>a {
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--text);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
+
+
+}
+.info-link:hover, .info-link:focus{
+    color:#404bbf;
+}
+.info-link:focus {
+    color:#404bbf;
+}
+
+/* ------section promo------ */
+
+
+.promo {
+    text-align: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.promo {
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
+}
+}
+.promo_header {
+    font-size: 56px;
+    width: 500px;
+    
+}
+
+
+/* ------section advantages------ */
+
+.advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.advantages_list {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.advantages-backgr {
+    background-color: var(--cloud);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+}
+
+.advantages-icon {
+    width: 64px;
+    height: 64px;
+}
+.advantages_list_item {
+    width: 264px;
+    margin-left: 24px;
+}
+.advantages_list_item:first-child {
+    margin-left: 0;
+}
+.advantages_list_head {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+/* ------section what we do------ */
+
+.what_we_do {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 120px;
+}
+.what_we_do-head {
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: var(--dark);
+    letter-spacing: 0.02em;
+    
+}
+.what_we_do_list {
+    display: flex;
+    margin-top: 72px;
+}
+
+.what_we_do_list_item:nth-last-child(-n + 2) {
+    margin-left: 24px;
+}
+
+/* ------section our team------ */
+
+.our_team_cards {
+    flex-wrap:nowrap;
+    
+}
+
+.our-team-wraper{
+    margin-top: 8px;
+}
+
+.our_team_item:nth-last-child(-n +3) {
+    margin-left: 24px;
+}
+
+
+/* ------section customers----- */
+
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-wraper{
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 0px;
+    gap: 24px;
+}
+
+
+/* ------section footer----- */
+
+.footer-container {
+    flex-wrap: nowrap;
+}
+
+.footer-social-block {
+    margin-left: 40px;
+}
+
+.footer-form {
+    justify-content: start;
+
+}
+.footer-label {
+    top: -50%;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.footer-input {
+    margin-top: 16px;
+ 
+}
+
+.footer-btn {
+    align-self: end;
+}
+
+
+/* ------section portfolio----- */
+
+
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.portfolio-btn-list-item:not(:first-child) {
+    margin-left: 24px;
+}
+.portfolio-btn {
+    padding: 12px 24px;
+          
+}
+
+
+
+.portfolio-card {
+    margin-top: 72px;
+    gap: 48px 24px;
+
+    
+}
+
+.portfolio-image-block {
+    width: 360px;
+    height: 300px;
+}
+
+
+}

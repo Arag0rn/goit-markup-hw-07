@@ -1,0 +1,14 @@
+@media screen and (min-width: 480px) and (max-width:768){
+    /* ------section header------ */
+
+    .portfolio-image-block, img {
+        width: 396px;
+    }
+
+    .toggleMenu-tel {
+      
+        font-size: 36px;
+       
+       
+    }
+}

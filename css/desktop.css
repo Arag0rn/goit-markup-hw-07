@@ -6,11 +6,7 @@ header {
     padding: 24px 0;
 
 }
-.container {
-    width: 1158px;
-    margin: 0 auto; 
-    padding: 0 15px;
-}
+
 .container-header {
     display: flex;
     align-items: center;
@@ -96,6 +92,10 @@ header {
 .promo {
     text-align: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    height: 600px;
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -107,7 +107,7 @@ header {
 }
 .promo_header {
     font-size: 56px;
-    width: 500px;
+    max-width: 496px;
     
 }
 

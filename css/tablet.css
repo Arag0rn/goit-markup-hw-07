@@ -11,7 +11,9 @@
 
     
     header {
-        padding: 19px 16px;
+        padding-top: 19px;
+        padding-bottom: 19px;
+
      
     }
     .menu, .header-list{
@@ -105,7 +107,7 @@
     
     .promo {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tablet.jpg);
-        
+       max-width: 768px;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -137,7 +139,8 @@
 
     /* ------section our team------ */
     .our_team {
-        padding: 96px 108px 104px 108px;
+        padding-top: 96px;
+        padding-bottom: 104px;
     }
     
     .our_team_cards {
@@ -160,18 +163,23 @@
     }
 
     .customers {
-        padding: 96px 108px;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
+    .customers-wraper{
+        row-gap: 72px;
+        column-gap: 24px;
+    }
     .customers-bacgr {
         width: 168px;
-        gap: 24px;
+      
     }
     
     /* ------section footer----- */
 
     .footer-container {
-        width: 555px;
+        width: 585px;
         margin: 0 auto;
         display: flex;
         flex-direction: row;

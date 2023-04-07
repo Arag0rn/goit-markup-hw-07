@@ -1,14 +1,13 @@
-@media screen and (min-width: 480px) and (max-width:768){
-    /* ------section header------ */
+@media screen and (min-width: 480px) and (max-width: 768px){
 
     .portfolio-image-block>img {
         width: 396px;
     }
 
     .toggleMenu-tel {
-      
         font-size: 36px;
-       
-       
+    }
+    .mobil-menu-soc {
+        gap: 56px;
     }
 }

@@ -105,11 +105,7 @@ header {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
 }
 }
-.promo_header {
-    font-size: 56px;
-    max-width: 496px;
-    
-}
+
 
 
 /* ------section advantages------ */
@@ -198,10 +194,13 @@ header {
 
 .our-team-wraper{
     margin-top: 8px;
+    justify-content: start;
+    gap: 24px;
 }
 
 .our_team_item:nth-last-child(-n +3) {
     margin-left: 24px;
+    
 }
 
 

@@ -109,6 +109,13 @@
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tablet.jpg);
        max-width: 768px;
     }
+    .promo_header {
+        font-size: 56px;
+        max-width: 496px;
+        
+    }
+
+
 
     @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),

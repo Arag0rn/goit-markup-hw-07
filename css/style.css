@@ -227,7 +227,7 @@ span {
 /* ------section our team------ */
 
    .our_team {
-    padding-top: 120px;
+    padding-top: 96px;
     padding-bottom: 120px;
     background-color: #f4f4fd;
 }
@@ -332,7 +332,7 @@ span {
     justify-content: center;
     margin: 0 auto;
     padding: 0px;
-    gap: 16px;
+    gap:72px 16px;
  }
 
  .customers-bacgr {
